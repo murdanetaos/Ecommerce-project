@@ -1,0 +1,127 @@
+ 
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 1.25rem;
+    box-sizing: border-box;
+    height: auto;
+    padding: 1.25rem;
+    width: 60rem;
+    background:#5885AF;
+    margin-top: .4rem;
+    margin-bottom: 20rem;
+      margin-left: 16rem;
+  }
+  
+  label{
+    color: whitesmoke;
+    font-size: medium;
+  
+  
+  }
+  
+  .title{
+    color: whitesmoke;
+    font-size: x-large;
+    margin-bottom: 1rem;
+  }
+  
+  input{
+   margin: .5rem;
+  }
+  
+  button{
+    background-color:  #274472;
+    color: whitesmoke;
+    border-radius: .5rem;
+    width: 6rem;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  
+    
+    .contactMe {
+      display: flex;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 50;
+      padding: 1rem;
+      background-color: #0c092a;
+    }
+  @media screen and (max-width: 830px) {
+    .nav-links {
+      position: relative;
+      display: block;
+      margin: auto;
+    }
+  }
+  
+  .nav-links li {
+    opacity: 1;
+    transition: all 0.3s ease-in;
+  }
+  @media screen and (max-width: 540px) {
+    .h1 {
+      display: none;
+    }
+    .h2 {
+      font-size: 3rem;
+    }
+    .p {
+      font-size: 0.5rem;
+    }
+    .main {
+      height: 60%;
+    }
+  }
+  
+  /* iPads */
+  @media only screen 
+    and (min-device-width : 768px) 
+    and (max-device-width : 1024px) {
+      .form {
+        width: 90%;
+        margin-bottom: 40rem;
+        margin-left: 3rem;
+      }
+    }
+  
+    /* iPhones */
+  @media only screen 
+  and (max-device-width : 500px) {
+    .form {
+      width: 90%;
+      margin-bottom: 19rem;
+      margin-left: 1rem;
+    }
+  }
+  
+  
+  @media (min-width: 1200px) {
+    /* Styles for extra large screens */
+    .h1 {
+      display: none;
+    }
+    .h2 {
+      font-size: 3rem;
+    }
+    .p {
+      font-size: 0.5rem;
+    }
+    .main {
+      height: 60%;
+    }
+  
+      .form {
+      width: 90%;
+      margin-bottom: 31rem;
+      margin-left: 5rem;
+    }
+  }
