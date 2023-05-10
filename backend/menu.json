@@ -1,0 +1,40 @@
+[
+    {
+      "name": "Mustang Gt500",
+      "description": "Item description goes here",
+      "imagePath": "path/to/Multimedia/shelby2.webp",
+      "price": "$95.000"
+    },
+    {
+      "name": "Another Item",
+      "description": "Another item description",
+      "imagePath": "path/to/another/image.jpg",
+      "price": "$15.00"
+    },
+    {
+        "name": "Another Item",
+        "description": "Another item description",
+        "imagePath": "path/to/another/image.jpg",
+        "price": "$15.00"
+      },
+      {
+        "name": "Another Item",
+        "description": "Another item description",
+        "imagePath": "path/to/another/image.jpg",
+        "price": "$15.00"
+      },
+      {
+        "name": "Another Item",
+        "description": "Another item description",
+        "imagePath": "path/to/another/image.jpg",
+        "price": "$15.00"
+      },
+      {
+        "name": "Another Item",
+        "description": "Another item description",
+        "imagePath": "path/to/another/image.jpg",
+        "price": "$15.00"
+      },
+
+    
+  ]
