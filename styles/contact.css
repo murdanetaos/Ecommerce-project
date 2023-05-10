@@ -12,7 +12,8 @@
 background: linear-gradient(90deg, hsla(217, 49%, 30%, 1) 0%, hsla(209, 35%, 52%, 1) 57%);
   font-family: 'Open Sans', sans-serif;
   margin-bottom: 1rem;
-    margin-left: 16rem;
+    margin-left: 15rem;
+    margin-top: 2rem;
     
 }
 
@@ -51,7 +52,23 @@ button{
   padding: 1rem;
   background-color: #0c092a;
 }
+#map-container {
+  display: flex;
+  justify-content: center;
 
+}
+
+.location{
+  background-color: #274472;
+  width: 50%;
+  margin-left: 24%;
+  border-radius: 10px;
+}
+.nombre{
+  font-size:x-large;
+  color: whitesmoke;
+  text-shadow: 5px 5px #5885AF;
+}
 
 /* iPhones */
 @media only screen 
@@ -71,7 +88,7 @@ button{
   and (min-device-width : 768px) 
   and (max-device-width : 1024px) {
     .form {
-      width: 90%;
+      width: 70%;
       margin-bottom: 13rem;
       margin-left: 3rem;
     }
@@ -79,25 +96,3 @@ button{
     /* CSS for iPads */
 }
 
-@media (min-width: 1200px) {
-  /* Styles for extra large screens */
-  .h1 {
-    display: none;
-  }
-  .h2 {
-    font-size: 3rem;
-  }
-  .p {
-    font-size: 0.5rem;
-  }
-  .main {
-    height: 60%;
-  }
-
-    .form {
-    width:20%;
-    margin-bottom: 10rem;
-    margin-left: 49rem;
-    margin-top: 0;
-  }
-}

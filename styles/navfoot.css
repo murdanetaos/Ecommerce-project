@@ -6,8 +6,9 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 50px;
+    padding: 0 90px;
     background: #41729F;
+    z-index: 2;
 }
 header .header-left {
     display: flex;
@@ -66,10 +67,9 @@ header .header-right .hamburger div {
 
 .foots {
     display: flex;
-    position: sticky;
     justify-content: center;
     margin-left: auto;
-    margin-top: 50%;
+    margin-top: 4%;
     padding: 0.5rem;
     background-color:  #41729F;
   }
@@ -111,6 +111,7 @@ header .header-right .hamburger div {
     nav .login-signup {
         display: block;
         margin-top: 20px;
+
     }
     header .header-right .login-signup {
         display: none;
