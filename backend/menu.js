@@ -13,7 +13,7 @@ window.onload = function () {
               <h2>${item.name}</h2>
               <p class="price">${item.price}</p>
               <span class="description">${item.description}</span>
-              <button class=" shop-item-button" type="button">ADD TO CART</button>
+              <button class="submit" shop-item-button" type="button">ADD TO CART</button>
               </div>
           `;
 

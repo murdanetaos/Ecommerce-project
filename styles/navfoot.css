@@ -81,7 +81,7 @@ header .header-right .hamburger div {
   
 @media only screen and (max-width: 1000px) {
     header {
-        padding: 0 20px;
+        padding: 0 40px;
     }
     header .header-right .hamburger {
         display: block;
@@ -97,7 +97,7 @@ header .header-right .hamburger div {
         padding: 30px;
         transition: 0.3s;
         text-align: center;
-        z-index: 2;
+        z-index: 3;
     }
     header .header-left nav.active {
         top: 70px;
@@ -107,15 +107,23 @@ header .header-right .hamburger div {
     }
 
 }
-@media only screen and (max-width: 390px) {
-    /* Your styles here */
-  }
-  
-  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    /* Your styles here */
-  }
-  
-  @media only screen and (max-width: 768px) {
-    /* Your styles here */
-  }
-  
+@media only screen and (max-width: 500px) {
+    nav .login-signup {
+        display: block;
+        margin-top: 20px;
+        z-index: 1;
+        width: 100px;
+
+    }
+    header .header-right .login-signup {
+        display: none;
+        z-index: 1;
+    }
+    header{
+        width: 160%;
+    }
+    .foots{
+        width: 160%;
+    }
+
+}
