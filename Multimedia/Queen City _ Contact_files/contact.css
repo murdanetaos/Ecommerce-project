@@ -70,14 +70,29 @@ button{
   text-shadow: 5px 5px #5885AF;
 }
 
-@media only screen and (max-width: 390px) {
-  /* Your styles here */
+/* iPhones */
+@media only screen 
+  and (max-device-width : 414px) {
+    .form {
+      width: 90%;
+      margin-bottom: 2rem;
+      margin-left: 1rem;
+      margin-top: 0;
+    }
+  
+    /* CSS for iPhones */
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  /* Your styles here */
+/* iPads */
+@media only screen 
+  and (min-device-width : 768px) 
+  and (max-device-width : 1024px) {
+    .form {
+      width: 70%;
+      margin-bottom: 13rem;
+      margin-left: 3rem;
+    }
+   
+    /* CSS for iPads */
 }
 
-@media only screen and (max-width: 768px) {
-  /* Your styles here */
-}

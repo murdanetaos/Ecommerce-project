@@ -107,15 +107,13 @@ header .header-right .hamburger div {
     }
 
 }
-@media only screen and (max-width: 390px) {
-    /* Your styles here */
-  }
-  
-  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    /* Your styles here */
-  }
-  
-  @media only screen and (max-width: 768px) {
-    /* Your styles here */
-  }
-  
+@media only screen and (max-width: 500px) {
+    nav .login-signup {
+        display: block;
+        margin-top: 20px;
+
+    }
+    header .header-right .login-signup {
+        display: none;
+    }
+}
