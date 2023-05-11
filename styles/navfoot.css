@@ -106,7 +106,19 @@ header .header-right .hamburger div {
         display: block;
     }
 
+    
+
 }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    /* Your styles here */
+    .foots{
+      width: 100%;
+      padding: 10%;
+    }
+    .footerimg{
+        width:80%;
+    }
+  }
 @media only screen and (max-width: 500px) {
     nav .login-signup {
         display: block;
@@ -120,10 +132,15 @@ header .header-right .hamburger div {
         z-index: 1;
     }
     header{
-        width: 160%;
+        width: 100%;
     }
     .foots{
-        width: 160%;
+        width: 100%;
+        padding: 100px;
+        margin-bottom: 0%;
+    }
+    .footerimg{
+        width: 100%;
     }
 
 }
